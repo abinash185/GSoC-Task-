@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.7" type="plugin" group="system">
+    <name>Page heading replacer</name>
+    <author>Abinash Kumar</author>
+    <creationDate>16-April-2022</creationDate>
+    <copyright>Copyright (C) 2021 Holder. All rights reserved.</copyright>
+    <license>GNU General Public License</license>
+    <authorEmail>abinashkumar185@gmail.com</authorEmail>
+    <authorUrl>url</authorUrl>
+    <version>1.0.1</version>
+    <description>Page heading replacer for admin</description>
+    <files>
+        <filename plugin="plugin">plugin.php</filename>
+        <filename plugin="plugin">index.html</filename>
+
+    </files>
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+            <field name="heading_text" type="text" description="Enter the heading title" label="Heading text"/>
+            </fieldset>
+        </fields>
+    </config>
+</extension>
